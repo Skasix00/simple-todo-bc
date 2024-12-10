@@ -1,0 +1,41 @@
+main button {
+	padding: 5px;
+	margin-left: 1em;
+}
+
+main input {
+	line-height: 2;
+}
+.wrapper{
+	max-width: 100%;
+}
+
+.list {
+	line-height: 2;
+	list-style: none;
+	width: 350px;
+}
+.lined-trough {
+	text-decoration: line-through;
+	color: red;
+}
+.list-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 24px;
+	width: 100%;
+}
+
+.none {
+	text-decoration: none;
+}
+
+body {
+	/* display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1; */
+	background-color: #1f1a63;
+	color: white;
+}
